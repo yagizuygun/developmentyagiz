@@ -1,12 +1,18 @@
+"""
 Stage: Development-01
     @author: Deniz Kuzey, 119202077
     @author: Zafer Sercan Yıldız, 119202037
-"""
+
 Stage: Development-02
     @author: Yağız Uygun, 119202075
     @author: Nimer Hamou, 117202010
     @author: Ayhan Emre Şermet, 117202098
 
+Stage: Code Review-03
+    @author: Süleyman Mehmet Güneş, 119200077
+    @author: Ahmet Berkay Seyhun, 119200075
+
+"""
 import tkinter as tk
 
 
@@ -121,3 +127,14 @@ if __name__ == "__main__":
 # main method for testing the application
 if _name_ == "_main_":
     LoginWindow()
+
+# Coding Standards
+# The usage of comment line is wrong at the beginning. This gives an error. 
+# Line 39, the usage of window.title command in wrong place due to that, gives an error. The command has to be in constructor.
+# Line 74, the usage of test_login_username, and test_login_password is wrong. Those credentials had to be defined.
+# Line 127, extra main method which is unneccesary. 
+
+# Finding Bugs
+# Since we can not run the Python code due to errors, we can not see any page.
+# The page is probably empty. -There is not any button for a search, and search button itself.-
+
